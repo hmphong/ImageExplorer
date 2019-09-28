@@ -2,14 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:background="@drawable/pressed">
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_weight="1"
         android:id="@+id/imgFol"
-        android:src="@drawable/ic_folder_black_24dp"/>
+        android:src="@drawable/ic_folder_black_24dp"
+        />
     <TextView
         android:layout_width="0dp"
         android:layout_height="100dp"

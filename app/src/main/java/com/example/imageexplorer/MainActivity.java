@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 0);
             } else {
                 ActivityCompat.requestPermissions(MainActivity.this,
-                        new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 100);
+                        new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 10);
             }
         } else {
 
@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
                         ( (TabLayout)findViewById(R.id.tabLayout)).setupWithViewPager(viewPager);
                     }
                 } else {
+
                     Toast.makeText(this, "No permisson granted", Toast.LENGTH_SHORT).show();
                     finish();
                 }

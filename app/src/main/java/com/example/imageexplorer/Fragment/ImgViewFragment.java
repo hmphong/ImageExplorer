@@ -46,7 +46,7 @@ public class ImgViewFragment extends Fragment {
         sdcard = view.findViewById(R.id.sdcard);
 
         getFile(new File(Environment.getExternalStorageDirectory().getAbsolutePath()));
-        Log.e("oncreat", "" + arrayList.get(0));
+//        Log.e("oncreat", "" + arrayList.get(0));
 
         imgViewAdapter = new ImgViewAdapter(getContext(),arrayList);
 
